@@ -1,16 +1,39 @@
-# React + Vite
+# 🧠 Neural Core: Pro-Grade Botanical Lab
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-fidelity, gesture-controlled 3D laboratory environment built with React, Three.js, and MediaPipe.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+**Production URL**: [https://neural-core-ux-design.vercel.app](https://neural-core-ux-design.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🎮 Spatial Command Guide
+This project uses **Neural Hand Tracking** to provide 100% manual control over 3D assets.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Action | Gesture | Visual Feedback |
+| :--- | :--- | :--- |
+| **Rotate** | Pinch Thumb + Index (1 Hand) | **Pink Tracking Dots** |
+| **Zoom** | Pinch Thumb + Index (2 Hands) | **Pink Tracking Dots** |
+| **Elevate (Up/Down)** | Pinch Thumb + Index + Middle | **Gold Tracking Dots** |
+| **Command Confirmed** | Active Interaction | **Model Glows Cyan** |
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Key Technologies
+- **3D Engine**: Three.js / React-Three-Fiber
+- **Interaction**: MediaPipe Hand Landmarker (V2)
+- **State Engine**: Neural "Nerve Link" (Zero-Latency Ref Sync)
+- **Multi-File Loader**: Smart Loading Manager for complex Blender exports (GLTF + BIN + Textures).
+- **Aesthetics**: Glassmorphism UI with Framer Motion.
+
+## 📁 Multi-File Support
+The lab supports uploading complex Blender projects. When using the "Upload Model" feature, select **ALL** files in your export folder (e.g., `model.gltf`, `model.bin`, and all texture images) to ensure a complete render.
+
+## 🛠️ Installation
+```bash
+npm install
+npm run dev
+```
+
+## 📜 License
+MIT License. Created by Maaz.
