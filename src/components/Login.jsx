@@ -101,7 +101,7 @@ const Login = ({ onLogin }) => {
         transition={{ delay: 1 }}
         style={{ position: 'absolute', bottom: '40px', fontSize: '0.8rem' }}
       >
-        PROTECTED BY ANTIGRAVITY QUANTUM ENCRYPTION
+        PROTECTED BY RAPTR MAAZ QUANTUM ENCRYPTION
       </motion.div>
     </motion.div>
   );
